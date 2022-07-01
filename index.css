@@ -1,0 +1,15 @@
+@font-face {
+  font-family: 'ir_Sans';
+  src: url('./Components/Fonts/ir_Sans.ttf');
+}
+body {
+  margin: 0;
+  font-family: ir_Sans;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
