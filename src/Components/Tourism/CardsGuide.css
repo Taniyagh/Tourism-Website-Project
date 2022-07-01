@@ -1,0 +1,91 @@
+.cards {
+    padding: 4rem;
+    background: #fff;
+    font-family: ir_Sans;
+    width:100%;
+  }
+  
+  .cards >h1 {
+    text-align: center;
+    font-size: 20px;
+    color:#666
+  }
+  .cards >p{
+    font-size: 16px;
+    color: #666;
+    font-weight: bold;
+    text-align: center;
+    margin-top: 16px;
+  }
+  .cards__container {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    max-width: 1120px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  
+
+  
+  .compare-item{
+    border: 1px solid #e2dddb;
+    border-radius: 3px;
+    position: relative;
+    padding: 0 30px;
+    width: 100%;
+  }
+  .compare-image-list {
+    text-align: center;
+}
+.compare-image-list>img {
+  margin-top: -40px;
+  margin-bottom: 10px;
+}
+.compare-item-title {
+  margin-bottom: 8px;
+  color: #4285f4;
+  font-size: 13px;
+  margin-bottom: 10px !important;
+}
+.compare-item-text{
+    font-size: 11px;
+    margin-bottom: 20px;
+}
+.compere-item-exp {
+  color: #8d8d8d;
+  text-overflow: ellipsis;
+  width: 100%;
+  overflow: hidden;
+  white-space: nowrap;
+  margin-bottom: 25px;
+}
+/* .cards__item {
+  margin-bottom: 24px;
+  display: flex;
+  margin: 0 1rem;
+  list-style: none;
+} */
+.cards__wrapper {
+  position: relative;
+  margin: 50px 0 45px;
+  width:80%;
+}
+@media only screen and (min-width: 960px) {
+      .card__item{
+        display: flex;
+      }
+      .cards__items{
+        margin: 10px;
+        list-style: none;
+      }
+
+}
+@media only screen and (max-width:960px){
+  .cards__items {
+    display: flex;
+    margin-bottom: 2.5rem;
+    list-style: none;
+  }
+
+}
